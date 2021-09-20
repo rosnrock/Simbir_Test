@@ -11,10 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.sql.Timestamp;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
