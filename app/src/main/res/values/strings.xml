@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyJournal</string>
+    <string name="text_test">Pick up clothes</string>
+    <string name="time_test">00:21</string>
+    <string name="head_test">00:00 - 01:00</string>
+    <string name="short_name">Short name of task</string>
+    <string name="description">Description of task</string>
+    <string name="confirm">OK</string>
+    <string name="toast">Name or description is empty</string>
+</resources>
