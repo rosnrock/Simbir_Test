@@ -36,7 +36,6 @@
             tools:listitem="@layout/recycler_item_head" />
     </ScrollView>
 
-
     <ImageView
         android:id="@+id/none_image"
         android:layout_width="350dp"
@@ -53,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/button_back"
         android:text="+"
         android:textColor="@color/colorAccent"
         android:textSize="40sp"

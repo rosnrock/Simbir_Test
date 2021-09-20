@@ -3,20 +3,29 @@ package com.skorbr.simbirtest_v2;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.*;
+import android.widget.Button;
+import android.widget.CalendarView;
+import android.widget.ImageView;
+
 import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.*;
-import java.text.*;
-import java.util.*;
-import io.realm.*;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+
+import io.realm.Realm;
 
 public class ActivityMain extends Activity {
 
+    private static List<Task> taskList = new ArrayList<>();
     private CalendarView calendarView;
     private RecyclerView recyclerView;
     private ImageView noneView;
     private Button addTask;
-    private static List<Task> taskList = new ArrayList<>();
     private String currentDate;
 
     @Override
